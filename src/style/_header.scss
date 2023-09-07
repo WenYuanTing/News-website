@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #affbdb;
+  justify-content: space-between;
+  min-height: 10vh;
+
+  .NameOfWeb {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-weight: normal;
+    }
+    .Logo {
+      max-height: 8vh;
+      margin: 0.25rem;
+      padding-right: 1rem;
+    }
+  }
+  .LinkOfWeb {
+    ul {
+      display: flex;
+      li {
+        margin-right: 2rem;
+        list-style-type: none;
+        a {
+          text-decoration: none;
+          color: black;
+          &:hover {
+            color: lightsalmon;
+            transition: 0.25s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}

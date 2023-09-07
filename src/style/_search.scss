@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  img {
+    max-width: 4vw;
+    margin-right: 3rem;
+  }
+  .classification {
+    a {
+      margin-right: 1.5rem;
+      text-decoration: none;
+      list-style-type: none;
+      color: black;
+      &:hover {
+        color: rgb(50, 236, 239);
+        transition: 0.25s ease-in-out;
+      }
+    }
+  }
+}

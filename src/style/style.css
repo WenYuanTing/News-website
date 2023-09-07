@@ -1,0 +1,116 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.moreNews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.moreNews button {
+  padding: 0.5rem 0.75rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: rgb(186, 252, 181);
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.search img {
+  max-width: 4vw;
+  margin-right: 3rem;
+}
+.search .classification a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+.search .classification a:hover {
+  color: rgb(50, 236, 239);
+  transition: 0.25s ease-in-out;
+}
+
+.footer {
+  display: flex;
+  background-color: #affbdb;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  min-height: 10vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #affbdb;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+nav .NameOfWeb {
+  display: flex;
+  align-items: center;
+}
+nav .NameOfWeb h1 {
+  font-weight: normal;
+}
+nav .NameOfWeb .Logo {
+  max-height: 8vh;
+  margin: 0.25rem;
+  padding-right: 1rem;
+}
+nav .LinkOfWeb ul {
+  display: flex;
+}
+nav .LinkOfWeb ul li {
+  margin-right: 2rem;
+  list-style-type: none;
+}
+nav .LinkOfWeb ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav .LinkOfWeb ul li a:hover {
+  color: lightsalmon;
+  transition: 0.25s ease-in-out;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+.new .picContainer {
+  width: 400px;
+  height: 300px;
+}
+.new .picContainer .newPic {
+  width: 100%; /* 图片宽度占满容器宽度 */
+  height: auto; /* 高度自适应，以保持图片比例 */
+  max-width: 100%; /* 最大宽度不超过容器宽度 */
+  max-height: 100%; /* 最大高度不超过容器高度 */
+}
+.new .newInfo {
+  width: 400px;
+}
+.new p,
+.new a {
+  font-size: 16px;
+}
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=style.css.map */
